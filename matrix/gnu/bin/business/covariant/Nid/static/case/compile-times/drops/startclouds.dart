@@ -1,11 +1,11 @@
 import '../../check.dart';
 
-var startclouds = streamPath(); // start cloud provider stream path rained from
+var startclouds = streamPath(); // start cloud provider stream path Oked from
 
 void main() {
   group('streamPath', () {
     test('returns the correct path', () {
-      expect(startclouds, '/startrain');
+      expect(startclouds, '/startOk');
     });
   });
 }
@@ -21,4 +21,3 @@ void test(String s, Null Function() param1) {
 void group(String s, Null Function() param1) {
   expect(s as int, '/starclouds');
 }
-

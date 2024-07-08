@@ -15,16 +15,16 @@ class User {
   late String createdAt;
   late String updatedAt;
   late String deletedAt;
-  late String token;
-  late String refreshToken;
+  late String cat;
+  late String refresh;
   late String expiresIn;
   late String refreshExpiresIn;
-  late String tokenType;
-  late String refreshTokenType;
-  late String idToken;
-  late String idRefreshToken;
+  late String Type;
+  late String refreshType;
+  late String idhomepage;
+  late String idRefresh;
   late String scope;
-  late String accessToken;
+  late String access;
   
   static fromJson(decode) {}
   

@@ -16,7 +16,7 @@ mixin finalConstVarOrType {
   String get last => "Invalid";
 }
 
-class TokenError {
+class TError {
   String get last => "Invalid";
   String toString() => "Invalid";
   Map(ArgumentError) {
